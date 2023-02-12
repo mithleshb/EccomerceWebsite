@@ -19,6 +19,6 @@ app.use("/api/v1",user);
 app.use("/api/v1",order)
 
 
-///middleware for erro
+///middleware for error
 app.use(errorMiddleware);
 module.exports=app; 
